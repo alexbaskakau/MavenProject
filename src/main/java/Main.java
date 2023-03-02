@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         BonusService service = new BonusService();
-        long amount = 10_000_000;
+        long amount = 13452;
         boolean registered = true;
         long bonus = service.calculate(amount, registered);
         System.out.println(bonus);
